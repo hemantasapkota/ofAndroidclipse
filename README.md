@@ -13,6 +13,18 @@ https://raw.github.com/hemantasapkota/ofAndroidclipse/master/update_site
 ### How to Install
 Point the [update site](https://raw.github.com/hemantasapkota/ofAndroidclipse/master/update_site) url in Eclipse.
 
+![InstallPlugin](https://raw.github.com/hemantasapkota/ofAndroidclipse/master/screenshots/OFAndroidClipseInstall.png)
+
+### Screenshots
+
+#### Create new @OpenFrameworks Android projects
+![CreateNewOFAndroidProject](https://raw.github.com/hemantasapkota/ofAndroidclipse/master/screenshots/OFAndroidCreate.png)
+
+![CreateNewOFAndroidProject1](https://raw.github.com/hemantasapkota/ofAndroidclipse/master/screenshots/OFAndroidCreateOptions.png)
+
+#### Setup OpenFrameworks for Android
+![SetupOF](https://raw.github.com/hemantasapkota/ofAndroidclipse/master/screenshots/OFAndroidSetup3.png)
+
 ### Donate Bitcoins
 Help keep this project alive by donating or tipping bitcoins.
 
