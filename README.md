@@ -8,6 +8,10 @@ Features
 * Generate projects from existing android samples
 * Simple and Intuitive interface
 
+Update Site
+===========
+https://raw.github.com/hemantasapkota/ofAndroidclipse/master/update_site
+
 Donate
 ===========================================
 If you think this plugin has helped you in any way, dontate some bitcoins to the following adrress:
