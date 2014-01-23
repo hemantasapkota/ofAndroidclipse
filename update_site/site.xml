@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="ofAndroidclipse">
-      ofAndroidclipse
+   <description name="OFAndroidClipse" url="https://raw.github.com/hemantasapkota/ofAndroidclipse/master/update_site">
+      Eclipse plugin for working with OpenFrameworks projects for Android.
    </description>
-   <feature url="features/ofAndroidclipse_1.0.0.jar" id="ofAndroidclipse" version="1.0.0" os="linux,macosx,win32">
-      <category name="ofAndroidclipse"/>
+   <feature url="features/OFAndroidClipse_1.0.1.jar" id="OFAndroidClipse" version="1.0.1" os="linux,macosx,win32">
+      <category name="OFAndroidClipse"/>
    </feature>
-   <category-def name="ofAndroidclipse" label="ofAndroidclipse">
+   <category-def name="OFAndroidClipse" label="OFAndroidClipse">
       <description>
          Eclipse plugin for working with OpenFrameworks projects for Android
       </description>

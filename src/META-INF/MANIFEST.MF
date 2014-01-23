@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Plugin.name
-Bundle-SymbolicName: ofAndroidclipse;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-SymbolicName: OFAndroidClipse;singleton:=true
+Bundle-Version: 1.0.1
 Bundle-Activator: ofandroidclipse.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,

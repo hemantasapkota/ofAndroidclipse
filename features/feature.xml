@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="ofAndroidclipse"
+      id="OFAndroidClipse"
       label="OFAndroidClipse"
-      version="1.0.0"
+      version="1.0.1"
       provider-name="Hemanta Sapkota"
       os="linux,macosx,win32">
 
    <description url="http://hemantasapkota.github.io/ofandroidclipse">
-      ofAndroidclipse is simple little plugin to setup and create OpenFrameworks projects for Android. Up until now, creating android projects for OpenFrameworks was difficult with lot of manual steps, all of which is now handled by this plugin.
+      OFAndroidClipse is an eclipse plugin to setup and create OpenFrameworks
+projects for Android.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
+   <copyright url="http://hemantasapkota.github.io/ofandroidclipse">
       Copyright (c) 2012, 2013 Hemanta Sapkota.
    </copyright>
 
@@ -88,7 +89,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
    </license>
 
    <plugin
-         id="ofAndroidclipse"
+         id="OFAndroidClipse"
          download-size="0"
          install-size="0"
          version="0.0.0"
