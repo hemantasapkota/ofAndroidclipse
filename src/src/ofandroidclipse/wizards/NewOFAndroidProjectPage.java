@@ -177,7 +177,7 @@ public class NewOFAndroidProjectPage extends WizardPage {
 	public NewOFAndroidProjectPage() {
 		super("wizardPage");
 		setMessage("OpenFrameworks for Android requires ADT plugin. If ADT plugin is not installed, please do so from the Eclipse Marketplace.\n\n");
-		setImageDescriptor(ResourceManager.getPluginImageDescriptor("ofAndroidclipse", "icons/ofIcon68x68.png"));
+		setImageDescriptor(ResourceManager.getPluginImageDescriptor("OFAndroidClipse", "icons/ofIcon68x68.png"));
 		setTitle("OpenFrameworks Android Project");
 		setDescription("This wizard creates new android project for OpenFrameworks.");
 

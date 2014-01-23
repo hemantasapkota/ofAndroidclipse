@@ -1,13 +1,13 @@
-/*
- * Copyright (c) 2013, 2014 Hemanta Sapkota.
+/*******************************************************************************
+ * Copyright (c) 2011 Google, Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
- * Hemanta Sapkota (laex.pearl@gmail.com)
- */
+ *    Google, Inc. - initial API and implementation
+ *******************************************************************************/
 package org.eclipse.wb.swt;
 
 import java.io.File;
@@ -48,7 +48,6 @@ public class ResourceManager extends SWTResourceManager {
 	// Image
 	//
 	////////////////////////////////////////////////////////////////////////////
-	/** The m_descriptor image map. */
 	private static Map<ImageDescriptor, Image> m_descriptorImageMap = new HashMap<ImageDescriptor, Image>();
 	/**
 	 * Returns an {@link ImageDescriptor} stored in the file at the specified path relative to the specified
@@ -214,14 +213,6 @@ public class ResourceManager extends SWTResourceManager {
 	 * Provider for plugin resources, used by WindowBuilder at design time.
 	 */
 	public interface PluginResourceProvider {
-		
-		/**
-		 * Gets the entry.
-		 *
-		 * @param symbolicName the symbolic name
-		 * @param path the path
-		 * @return the entry
-		 */
 		URL getEntry(String symbolicName, String path);
 	}
 	/**
@@ -271,12 +262,8 @@ public class ResourceManager extends SWTResourceManager {
 		}
 		return null;
 	}
-	
 	/**
 	 * Returns an {@link Image} based on given {@link URL}.
-	 *
-	 * @param url the url
-	 * @return the plugin image from url
 	 */
 	private static Image getPluginImageFromUrl(URL url) {
 		try {
@@ -346,13 +333,8 @@ public class ResourceManager extends SWTResourceManager {
 		}
 		return null;
 	}
-	
 	/**
 	 * Returns an {@link URL} based on a {@link Bundle} and resource entry path.
-	 *
-	 * @param symbolicName the symbolic name
-	 * @param path the path
-	 * @return the plugin image url
 	 */
 	private static URL getPluginImageURL(String symbolicName, String path) {
 		// try runtime plugins
@@ -369,14 +351,15 @@ public class ResourceManager extends SWTResourceManager {
 		// no such resource
 		return null;
 	}
-	
 	/**
 	 * Returns an {@link URL} based on a plugin and file path.
-	 *
-	 * @param plugin            the plugin {@link Object} containing the file path.
-	 * @param name            the file path.
+	 * 
+	 * @param plugin
+	 *            the plugin {@link Object} containing the file path.
+	 * @param name
+	 *            the file path.
 	 * @return the {@link URL} representing the file at the specified path.
-	 * @throws Exception the exception
+	 * @throws Exception
 	 */
 	private static URL getPluginImageURL(Object plugin, String name) throws Exception {
 		// try to work with 'plugin' as with OSGI BundleContext

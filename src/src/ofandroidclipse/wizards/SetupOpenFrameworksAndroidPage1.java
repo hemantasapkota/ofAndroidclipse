@@ -10,6 +10,8 @@
  */
 package ofandroidclipse.wizards;
 
+import ofandroidclipse.ofReleaseDir.OFUtil;
+import ofandroidclipse.ofReleaseDir.OFUtil.BROWSE;
 import ofandroidclipse.util.DirectoryUtil;
 
 import org.apache.commons.lang.StringUtils;
@@ -29,6 +31,7 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.forms.widgets.FormToolkit;
 
 import com.google.common.base.Optional;
+
 import org.eclipse.wb.swt.ResourceManager;
 
 /**
@@ -54,7 +57,7 @@ public class SetupOpenFrameworksAndroidPage1 extends WizardPage {
 	 */
 	public SetupOpenFrameworksAndroidPage1() {
 		super("wizardPage");
-		setImageDescriptor(ResourceManager.getPluginImageDescriptor("ofAndroidclipse", "icons/ofIcon68x68.png"));
+		setImageDescriptor(ResourceManager.getPluginImageDescriptor("OFAndroidClipse", "icons/ofIcon68x68.png"));
 		setTitle("Setup OpenFrameworks for Android");
 		setDescription("This wizard will automatically try to set up OpenFrameworks for Android.");
 	}
@@ -100,6 +103,12 @@ public class SetupOpenFrameworksAndroidPage1 extends WizardPage {
 
 		Button btnViewNDKWeb = formToolkit.createButton(container, "Download",
 				SWT.NONE);
+		btnViewNDKWeb.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				OFUtil.browse(BROWSE.NDK_ROOT);
+			}
+		});
 
 		Label lblSdkroot = new Label(container, SWT.NONE);
 		lblSdkroot.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false,
@@ -131,6 +140,12 @@ public class SetupOpenFrameworksAndroidPage1 extends WizardPage {
 
 		Button btnViewSDKWeb = formToolkit.createButton(container, "Download",
 				SWT.NONE);
+		btnViewSDKWeb.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				OFUtil.browse(BROWSE.SDK_ROOT);
+			}
+		});
 
 		Label label = formToolkit.createSeparator(container, SWT.HORIZONTAL);
 		GridData gd_label = new GridData(SWT.FILL, SWT.CENTER, false, false, 4,
@@ -167,6 +182,12 @@ public class SetupOpenFrameworksAndroidPage1 extends WizardPage {
 
 		Button btnViewOFArchiveWeb = formToolkit.createButton(container,
 				"Download", SWT.NONE);
+		btnViewOFArchiveWeb.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				OFUtil.browse(BROWSE.OF_ROOT);
+			}
+		});
 		
 		validate();
 	}

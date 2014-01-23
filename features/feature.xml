@@ -2,7 +2,7 @@
 <feature
       id="OFAndroidClipse"
       label="OFAndroidClipse"
-      version="1.0.2"
+      version="1.0.3"
       provider-name="Hemanta Sapkota"
       os="linux,macosx,win32">
 
