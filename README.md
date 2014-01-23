@@ -1,5 +1,5 @@
 ### OFAndroidClipse
-Eclipse plugin for working with @OpenFrameworks projects for Android.
+Eclipse plugin for working with (OpenFrameworks)[http://www.openframeworks.cc/] projects for Android.
 
 ### Features
 * Set up OpenFrameworks environment in Eclipse
