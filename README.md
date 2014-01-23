@@ -17,7 +17,7 @@ Help keep this project alive by donating or tipping bitcoins.
 1JzDsSmN8P498HBVUiDzKAjM5UsipT4FjN
 ```
 
-Follow me on twitter: (@laex_pearl)
+Follow me on twitter: [@hemantasapkota](https://twitter.com/laex_pearl)
 
 ### License - Eclipse Public License -v 1.0
 See [http://www.eclipse.org/legal/epl-v10.html](here)
