@@ -3,7 +3,7 @@
    <description name="OFAndroidClipse" url="https://raw.github.com/hemantasapkota/ofAndroidclipse/master/update_site">
       Eclipse plugin for working with OpenFrameworks projects for Android.
    </description>
-   <feature url="features/OFAndroidClipse_1.0.1.jar" id="OFAndroidClipse" version="1.0.1" os="linux,macosx,win32">
+   <feature url="features/OFAndroidClipse_1.0.2.jar" id="OFAndroidClipse" version="1.0.2" os="linux,macosx,win32">
       <category name="OFAndroidClipse"/>
    </feature>
    <category-def name="OFAndroidClipse" label="OFAndroidClipse">

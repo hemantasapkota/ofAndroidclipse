@@ -60,7 +60,7 @@ public class OFAndroidProjectGenerator {
 	 */
 	public File copyGeneratorANTFile() throws IOException {
 		URL url = new URL(
-				"platform:/plugin/ofAndroidclipse/ofAndroidclipseProjectGenerator.xml");
+				"platform:/plugin/OFAndroidClipse/ofAndroidclipseProjectGenerator.xml");
 		InputStream is = url.openConnection().getInputStream();
 
 		File tmpFile = File.createTempFile("ofAndroidclipse", ".xml");

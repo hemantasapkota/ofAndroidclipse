@@ -60,7 +60,7 @@ public class OFAndroidSetup {
 	 */
 	public File copyUnpackAndSetupAntFile() throws IOException {
 		URL url = new URL(
-				"platform:/plugin/ofAndroidclipse/ofAndroidUnpackAndSetup.xml");
+				"platform:/plugin/OFAndroidClipse/ofAndroidUnpackAndSetup.xml");
 		InputStream is = url.openConnection().getInputStream();
 
 		File tmpFile = File.createTempFile("ofAndroidUnpackAndSetup", ".xml");
