@@ -20,6 +20,4 @@ If you think this plugin has helped you in any way, dontate some bitcoins to the
 
 Or, you can use TipperCoin to tip some bitcoins.
 
-Social Media
-============
-Follow me @laex_pearl
+Follow me on twitter: (@laex_pearl)
