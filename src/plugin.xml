@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="ofAndroidclipse"
+            name="OpenFrameworks Android">
+      </category>
+      <wizard
+            category="ofAndroidclipse"
+            class="ofandroidclipse.wizards.SetupOpenFrameworksAndroid"
+            finalPerspective="org.eclipse.cdt.ui.CPerspective"
+            hasPages="true"
+            icon="icons/ofIcon.png"
+            id="ofAndroidclipse.SetupOpenFrameworksAndroid"
+            name="Setup OpenFrameworks for Android"
+            project="true">
+      </wizard>
+      <wizard
+            category="ofAndroidclipse"
+            class="ofandroidclipse.wizards.NewOFAndroidProject"
+            finalPerspective="org.eclipse.cdt.ui.CPerspective"
+            hasPages="true"
+            icon="icons/ofIcon.png"
+            id="ofandroidclipse.wizards.NewOFAndroidProject"
+            name="New OpenFrameworks Project"
+            project="true">
+      </wizard>
+   </extension>
+
+</plugin>

@@ -1,0 +1,8 @@
+.DS_Store
+.class
+bin/
+*.jar
+ofAndroidclipse-updatesite/features/*
+ofAndroidclipse-updatesite/plugins/*
+ofAndroidclipse-updatesite/web/*
+

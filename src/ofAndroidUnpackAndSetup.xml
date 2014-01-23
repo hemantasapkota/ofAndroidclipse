@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ofAndroidSetup">
+
+	<!-- Copy androidEmptyExample -->
+	<target name="SetSDK">
+
+		<copy file="${OF_ROOT}/libs/openFrameworksCompiled/project/android/paths.make.default" tofile="${OF_ROOT}/libs/openFrameworksCompiled/project/android/paths.make">
+		</copy>
+
+		<replace file="${OF_ROOT}/libs/openFrameworksCompiled/project/android/paths.make" token="&lt;path-to-NDK-location&gt;" value="${NDK_ROOT}">
+		</replace>
+
+		<replace file="${OF_ROOT}/libs/openFrameworksCompiled/project/android/paths.make" token="&lt;path-to-SDK-location&gt;" value="${SDK_ROOT}">
+		</replace>
+
+
+	</target>
+
+</project>

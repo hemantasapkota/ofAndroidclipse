@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ofAndroidclipseProjectGenerator">
+	<!-- Copy androidEmptyExample -->
+	<target name="GenerateOFProject">
+		<mkdir dir="${DEST_DIR}" />
+		<copy todir="${DEST_DIR}">
+			<fileset dir="${PATH_TO_OF}/examples/android/${TEMPLATE_PRJ}">
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="CustomizeOFProject">
+		<!-- Change the name of the project -->
+		<replace file="${DEST_DIR}/.project" token="${TEMPLATE_PRJ}" value="${NEW_PROJECT_NAME}">
+		</replace>
+		<!-- Change the path to ofAndroidLib -->
+		<replace file="${DEST_DIR}/project.properties" token="../../../addons/ofxAndroid/ofAndroidLib" value="../../addons/ofxAndroid/ofAndroidLib">
+		</replace>
+		<!-- Change the path to OF_ROOT -->
+		<replace file="${DEST_DIR}/Makefile" token="OF_ROOT=../../.." value="OF_ROOT=../..">
+		</replace>
+
+		<!-- Change package name in multiple places -->
+		<move todir="${DEST_DIR}/srcJava/cc/openFrameworks/${NEW_PROJECT_NAME}">
+			<fileset dir="${DEST_DIR}/srcJava/cc/openFrameworks/${TEMPLATE_PRJ}">
+			</fileset>
+		</move>
+		<replace file="${DEST_DIR}/srcJava/cc/openFrameworks/${NEW_PROJECT_NAME}/OFActivity.java" token="${TEMPLATE_PRJ}" value="${NEW_PROJECT_NAME}">
+		</replace>
+		<replace file="${DEST_DIR}/AndroidManifest.xml" token="${TEMPLATE_PRJ}" value="${NEW_PROJECT_NAME}">
+		</replace>
+		<replace file="${DEST_DIR}/res/values/strings.xml" token="${TEMPLATE_PRJ}" value="${NEW_PROJECT_NAME}">
+		</replace>
+		<!-- End change package name -->
+	</target>
+
+</project>
