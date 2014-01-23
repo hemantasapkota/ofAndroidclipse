@@ -10,6 +10,9 @@ Eclipse plugin for working with @OpenFrameworks projects for Android.
 ### Update Site
 https://raw.github.com/hemantasapkota/ofAndroidclipse/master/update_site
 
+### How to Install
+Point the [update site](https://raw.github.com/hemantasapkota/ofAndroidclipse/master/update_site) url in Eclipse.
+
 ### Donate Bitcoins
 Help keep this project alive by donating or tipping bitcoins.
 
