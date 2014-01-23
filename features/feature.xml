@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="ofAndroidclipse-feature"
-      label="OfAndroidclipse"
-      version="1.0.0.qualifier"
-      provider-name="Hemanta Sapkota">
+      id="ofAndroidclipse"
+      label="OFAndroidClipse"
+      version="1.0.0"
+      provider-name="Hemanta Sapkota"
+      os="linux,macosx,win32">
 
    <description url="http://hemantasapkota.github.io/ofandroidclipse">
       ofAndroidclipse is simple little plugin to setup and create OpenFrameworks projects for Android. Up until now, creating android projects for OpenFrameworks was difficult with lot of manual steps, all of which is now handled by this plugin.

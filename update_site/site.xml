@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <description name="ofAndroidclipse">
-      Eclipse plugin for setting up OpenFrameworks projects for Android.
+      ofAndroidclipse
    </description>
-   <feature url="features/ofAndroidclipse-feature_1.0.0.201401240135.jar" id="ofAndroidclipse-feature" version="1.0.0.201401240135" os="" ws="">
+   <feature url="features/ofAndroidclipse_1.0.0.jar" id="ofAndroidclipse" version="1.0.0" os="linux,macosx,win32">
       <category name="ofAndroidclipse"/>
    </feature>
-   <category-def name="ofAndroidclipse" label="ofAndroidclipse"/>
+   <category-def name="ofAndroidclipse" label="ofAndroidclipse">
+      <description>
+         Eclipse plugin for working with OpenFrameworks projects for Android
+      </description>
+   </category-def>
 </site>
