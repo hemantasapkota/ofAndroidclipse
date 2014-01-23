@@ -17,8 +17,6 @@ Help keep this project alive by donating or tipping bitcoins.
 1JzDsSmN8P498HBVUiDzKAjM5UsipT4FjN
 ```
 
-Or, you can use TipperCoin to tip some bitcoins.
-
 Follow me on twitter: (@laex_pearl)
 
 ### License - Eclipse Public License -v 1.0
