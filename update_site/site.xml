@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/ofAndroidclipse-feature_1.0.0.201401240109.jar" id="ofAndroidclipse-feature" version="1.0.0.201401240109">
+   <description name="ofAndroidclipse">
+      Eclipse plugin for setting up OpenFrameworks projects for Android.
+   </description>
+   <feature url="features/ofAndroidclipse-feature_1.0.0.201401240135.jar" id="ofAndroidclipse-feature" version="1.0.0.201401240135" os="" ws="">
       <category name="ofAndroidclipse"/>
    </feature>
    <category-def name="ofAndroidclipse" label="ofAndroidclipse"/>
