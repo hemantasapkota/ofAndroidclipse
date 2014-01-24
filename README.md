@@ -36,3 +36,7 @@ Follow me on twitter: [@hemantasapkota](https://twitter.com/laex_pearl)
 
 ### License - Eclipse Public License -v 1.0
 See [http://www.eclipse.org/legal/epl-v10.html](here)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hemantasapkota/ofandroidclipse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
