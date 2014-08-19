@@ -29,14 +29,11 @@ Point the [update site](https://raw.github.com/hemantasapkota/ofAndroidclipse/ma
 Help keep this project alive by donating or tipping bitcoins.
 
 ```
-1JzDsSmN8P498HBVUiDzKAjM5UsipT4FjN
+15S1a3QJYUPPEQQ9NjzA1dnrAB78Vk2Hpr
 ```
 
 Follow me on twitter: [@hemantasapkota](https://twitter.com/laex_pearl)
 
 ### License - Eclipse Public License -v 1.0
 See [http://www.eclipse.org/legal/epl-v10.html](here)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hemantasapkota/ofandroidclipse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
